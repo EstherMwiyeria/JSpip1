@@ -32,3 +32,21 @@ function totalVowels(name) {
       }
     }
   console.log(sumGreater(100,50));
+
+// Write a function that takes in a array of numbers as a parameter and returns the second largest number
+// in the array
+function secondLargest(nums3){
+    nums3.sort()
+    return nums3[-2]
+}
+console.log(secondLargest(2,8,9,5,6))
+// Write a function that takes a string as a parameter and returns true if the string is a palindrome
+//  and false otherwise.
+function isAPalindrome(name){
+    var  name2=name.split(",").reverse("").join("")
+     if(name==name2){
+         return "true"
+     }else
+     return "false"
+ }
+ console.log(isAPalindrome("noon"))
